@@ -1,0 +1,188 @@
+
+/* GLOBAL
+------------------------------------------------------- */
+#flo-popup {
+	width: 560px;
+	font: 12px/20px Arial, Helvetica, sans-serif;
+	overflow: hidden;
+}
+#flo-popup * {
+	font: 12px/20px Arial, Helvetica, sans-serif;	
+}
+
+/* form side */
+#flo-sc-form-wrap {
+	width: 550px;
+	float: left;
+}
+#flo-sc-form-wrap #flo-sc-form-head {
+	width: 520px;
+	padding: 15px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 1;
+	text-shadow: 0 -1px 0 #000;
+	background-color: #7F8993;
+}
+#flo-popup.no_preview #flo-sc-form-wrap #flo-sc-form-head {
+	width: 530px;
+}
+#flo-sc-form-wrap #flo-sc-form {
+	width: 490px;
+	padding: 15px;
+}
+
+
+
+/* FORM
+------------------------------------------------------- */
+
+#flo-sc-form-table {
+	width: 530px;
+}
+#flo-sc-form-table img{
+	max-width: 150px;
+}
+
+#flo-sc-form-table tbody tr.form-row {
+	display: block;
+	padding: 5px 0;
+	border-bottom: solid 1px #eaeaea;
+}
+#flo-sc-form-table tbody:last-child tr.form-row {
+	border-bottom: none;
+}
+#flo-sc-form-table tbody tr.form-row .label {
+	width: 200px;
+	text-align: left;
+	vertical-align: top;
+	line-height: 35px;
+	padding-right: 20px;
+}
+#flo-sc-form-table tbody tr.form-row .field {
+	width: 370px;
+}
+#flo-sc-form-table tbody tr.form-row .flo-insert {
+	color: #fff;
+	line-height: 30px;
+	height: 30px;
+}
+
+/* child rows, sortable */
+#flo-sc-form-table .has-child #form-child-add {
+	display: block;
+	width: 520px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 0;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#flo-sc-form-table .has-child .child-clone-rows {
+	display: block;
+}
+#flo-sc-form-table .has-child .child-clone-rows .child-clone-row {
+	padding: 8px 15px;
+	background: #f7f7f7;
+	border: solid 1px #e0e0e0;
+	margin-bottom: 10px;
+	cursor: move;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#flo-sc-form-table .has-child .sortable-placeholder {
+	border: dashed 2px #e0e0e0;
+	margin-bottom: 10px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #f7f7f7;
+	height: 40px;
+}
+#flo-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form {
+	display: block;
+}
+#flo-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .child-clone-row-form-row {
+	display: block;
+	padding: 7px 0;
+	border-bottom: solid 1px #ddd;
+}
+#flo-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .child-clone-row-form-row .child-clone-row-label label {
+	display: block;
+	font-weight: bold;
+	font-style: italic;
+	padding-bottom: 7px;
+	line-height: 1;
+}
+#flo-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-remove {
+	color: #FF0000;
+	padding: 1px;
+}
+#flo-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-remove:hover {
+	color: #fff;
+	background: #FF0000;
+}
+
+/* form elements */
+
+/* - all */
+#flo-sc-form-table tbody tr.form-row .flo-form-text,
+#flo-sc-form-table tbody tr.form-row .flo-form-textarea,
+#flo-sc-form-table tbody tr.form-row .flo-form-select {
+	width: 300px;
+	padding: 5px 10px;
+	background: #f7f7f7;
+	border: none;
+	border-left: solid 1px #ddd;
+	border-top: solid 1px #ddd;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#flo-sc-form-table tbody tr.form-row.has-child .flo-form-text,
+#flo-sc-form-table tbody tr.form-row.has-child .flo-form-textarea,
+#flo-sc-form-table tbody tr.form-row.has-child .flo-form-select {
+	background: #fff;
+	width: 485px;
+}
+
+/* - textarea */
+#flo-sc-form-table tbody tr.form-row .flo-form-textarea {
+	height: 120px;
+}
+#flo-sc-form-table tbody tr.form-row.has-child .flo-form-textarea {
+	height: 100px;
+}
+
+/* - select */
+#flo-sc-form-table tbody tr.form-row .flo-form-select {
+	display: block;
+	height: 25px;
+}
+#flo-sc-form-table tbody tr.form-row.has-child .flo-form-select {
+	width: auto;
+	height: 25px;
+}
+
+/* - desc */
+#flo-sc-form-table tbody tr.form-row .field .flo-form-desc,
+#flo-sc-form-table tbody tr.form-row .child-clone-row-desc {
+	display: block;
+	font-size:  12px;
+	color: #aaa;
+	font-style: italic;
+	padding-top: 3px;
+}
+
+/* Hide outline on focus */
+#content_flo_button { outline: none; }
+
+/* attached image for team member */
+.flo-team-attached-image{max-width: 160px;}
+
+i.flo-insta-icon {
+	background-image: url('../images/icon.png') !important;
+}

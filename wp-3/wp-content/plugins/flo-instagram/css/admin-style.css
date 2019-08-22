@@ -1,0 +1,24 @@
+.lookup-result-spinner{float: left;}
+.flo-instagram-settings input[type=text]{width: 400px;}
+.widget-content input.spacing{width: 40px;}
+#flo-sc-form-head{display: none;}
+#flo-sc-form-wrap #flo-sc-form{padding-top: 0px !important;}
+.flo-found-users-list{  width: 300px;}
+/*.flo-found-users:nth-child(even) {background: #CCC}*/
+.flo-found-users{padding: 10px;}
+.flo-found-users:nth-child(even) {background: #FFF}
+.hide{ display: none; }
+span.generic-hint{ 
+	display: inline;
+	color: #999999;
+	font-size: 11px; 
+}
+
+.different-user{
+	border: 1px solid #999999;
+	padding: 10px;
+}
+
+#TB_window{
+	max-height: 90%;
+}
